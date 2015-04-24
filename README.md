@@ -1,11 +1,13 @@
 # ProgettoAMM
 Versione definitiva del progetto per Amministrazione di Sistema
 
-
+--------------
 
 Progetto per AmMinistrazione di Sistema 
+
 Descrizione
 Il sito web si configura come una galleria espositiva online, che permette ai suoi proprietari / autori, di publicizzare e vendere i loro lavori. L’idea  è che questo sito web rappresenti l’attività di un gruppo di fotografi professionisti, che vogliono esporre e vendere i loro lavori, senza alcuna intermediazione, tramite un loro sito web dedicato. Il sito fa quindi da interfaccia fra gli utenti finali, che andranno ad acquistare i lavori, gli autori delle foto, e le figure gestionali annesse per la gestione logistica e strutturale.
+
 Utenti del sito
 L’utente finale è quella figura a cui è dedicato lo spazio per l’acquisto. L’utente , potrà scegliere se acquistare una determinata immagine,  in formato digitale (acquistando i diritti d’uso), oppure se ordinare i vari articoli in formato galleria, per un’esposizione pubblica o privata. Avrà la possibilità di registrare un account, per acquisti futuri o immediati, che riassumerà tutte le informazioni che ha concesso al sito in termini di dati anagrafici e di recapito, nonchè l’elenco di attività collegate al sito. L’account utente è visionabile in una sezione del sito dedicata, comprendente 3 pagine riassuntive (Profilo, Pagamenti, Ordini). L’acquisto non è mediato da un carrello in quanto, per prezzi così importanti, si è scelto un metodo di acquisto più riflessivo, limitato ad un singolo articolo per volta. 
 Per la gestione del sito sono previste due figure: il proprietario e il web Admin. 
@@ -14,14 +16,16 @@ Il web Admin ottiene quindi uno spaccato completo delle attività del sito, aven
 Gli autori delle foto, che coincidono col proprietario, dovranno procedere manualmente all’inserimento delle immagini, prima all’interno dello spazio web del server, poi all’interno del database. In una successiva implementazione si può pensare ad un’interfaccia per velocizzare l’operazione. 
 
 Requisiti del progetto
+
 1.	Utilizzo di HTML e CSS
 Il sito web è strutturato in HTML5, facendo largo uso dei nuovi tag semantici nella strutturazione di ogni pagina interna al sito. Il codice HTML5 è stato validato, secondo gli standard del w3c, per tutte le sezioni del sito.
 Le viste sono strutturate con l’ausilio del CSS3. Ho usato animazioni in alcuni punti del sito, mentre ho avuto diversi problemi nell’implementare un design che fosse scalabile su più risoluzioni differenti e su schermi non widescreen. Il risultato non dovrebbe essere un codice css3 validato, più che altro per l’utilizzo di tag specifici per firefox e chrome , ma il sito web dovrebbe essere comunque in grado di adattarsi ad ogni risoluzione. Internet Explorer, visto l’annuncio microsoft circa il supporto mancato al css, è stato messo in secondo piano.
+
 2.	Utilizzo di PHP e MySQL
 Tutto il sito poggia su una base di PHP che gestisce sessioni, visualizzazione, permessi, ruoli e funzionalità degli utenti. E’ strutturato secondo il pattern MVC e fa uso, in alcuni contesti, di funzioni d’ausilio (chiamate helper functions) per portare a termine compiti specifici, anche oltre le funzionalità base del pattern (es SendMail.PHP)
 Il database (SQL) è stato progettato esplicitamente per il sito, e presenta 6 tabelle (WebAdmin, LoggedUser, Ordine, Immagine, CreditCard, Bonifico) che riassumono tutte le entità (e le relative associazioni) su cui si struttura il sito. Nella cartella Database è presente sia lo schema concettuale  del database sia l’esport dell’implementazione dello schema logico.
-3.	Utilizzo del pattern MVC
 
+3.	Utilizzo del pattern MVC
 Il pattern MVC struttura completamente il sito web, garantendo un’interazione completa fra le entità che lo compongono, le logiche di gestione e la visualizzazione finale di tutti i dati annessi. Nello specifico, la pagina index.php fa da punto unico d’accesso, istanziando, in relazione alla risorsa richiesta, lo specifico controller dedicato alla gestione. Il risultato dell’interazione fra controller e model è direttamente visionabile all’interno della pagina master.php, che si occupa d’includere tutte le viste necessarie alla composizione finale della vista selezionata. 
 
 Il model, include sia la versione php delle entità già presenti nel database che alcune funzioni ed entità relative alle funzionalità specifiche del sito. Include:
@@ -52,9 +56,9 @@ Il controller è in realtà strutturato secondo più controller differenti, sudd
 
 4.	Almeno due ruoli (indicare quali sono)
 •	Utenti del sito
+
 5.	Almeno una transazione (indicare la classe dove è implementata)
 La transazione è implementata attraverso una classe dedicata, TransactionHandler, tramite la funzione starNewTransaction (TransactionHandler ::starNewTransaction($datiOrdine)). La funzione si occupa prima di generare un id casuale per l’ordine, in modo che non si sovrapponga ad altre ordinazioni. Subito dopo effettua la transazione con l’eventuale banca online e  (controllo non implementato)  e istanzia un prepared statement, secondo il pattern della query da effettuare. Dopo aver eseguito lo statement, decrmenta la disponibilità dell’oggetto dal database, e riabilita l’autocommit. In caso di errore la transazione è annullata e genera un codice d’errore che riporta alla funzione in cui l’errore si è verificato. 
-
 
 6.	Almeno una funzionalità ajax (indicare in quale script si trovi)
 All’interno dello script .js presente in Javascript/AjaxLoginMgmt.js si trova uno script JQuery utilizzato per la gestione dei form di login tramite ajax: 
