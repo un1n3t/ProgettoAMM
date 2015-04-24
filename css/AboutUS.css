@@ -1,0 +1,230 @@
+
+/* 16:9 1280X720 */
+@media all and (device-width: 1280px) and (device-height: 720px) 
+{
+    #About-Container footer 
+    {
+        bottom: -27% !important;
+        left: 1% !important;
+        width: 65% !important;
+    }
+    
+    #services
+    {
+        width: 42.1341% !important;
+        height: 32.4117% !important;
+    }
+}
+
+/* 16:10 1280 x 800 - 1900 x 1200 - */
+@media all and (device-width: 1280px) and (device-height: 800px),  (device-width: 1440px) and (device-height: 900px), (device-width: 1680px) and (device-height: 1050px), (device-width: 1900px) and (device-height: 1200px), (device-aspect-ratio: 16/10)
+{
+    #About
+    {
+        background-size: auto !important;
+    }
+    
+    #About-Container footer 
+    {
+        bottom: -14% !important;
+        left: 1% !important;
+        width: 65% !important;
+    }
+    
+    #services
+    {
+        width: 42.1341% !important;
+        height: 32.4117% !important;
+    }
+}
+
+/* 4:3 1024 x 768 - 1600 x 1200 - */
+@media all and (device-width: 1024px) and (device-height: 768px),  (device-width: 1152px) and (device-height: 864px), (device-width: 1280px) and (device-height: 960px), (device-width: 1400px) and (device-height: 1050px), (device-width: 1600px) and (device-height: 1200px), (device-aspect-ratio: 4/3)
+{
+    #About
+    {
+        background-size: auto !important;
+    }
+    
+    #About-Container
+    {
+        height: 96% !important;
+    }
+    
+    #About-Container footer 
+    {
+        position: relative !important;
+        left: 1% !important;
+        bottom: 2% !important;
+        
+        width: 85% !important;
+    }
+    
+    #services
+    {
+        width: 42.1341% !important;
+        height: 32.4117% !important;
+    }
+}
+
+
+#About
+{
+    background-image: url("images/AboutBG.jpg");
+    background-size: 101.6%;
+    
+    height: 81.94%;
+    width: 100%;
+    
+    position: absolute;
+    right: 0;
+    top: 11.8%;
+    
+    overflow: hidden;
+    
+}
+
+#About-Container
+{
+    position: relative;
+    top: -2px;
+
+    width: 52.1871%;
+    height: 94%;
+    
+    z-index: 10;
+    
+    border-radius: 5px;
+    border-width: 0px 11px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.68);
+
+    background-clip: padding-box;
+    background-color: rgba(255, 255, 255, 0.82);
+
+    padding-top: 2.75%;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: auto;
+}    
+
+#About-Container h1
+{
+    padding-left: 13.1737%;
+    margin: 0px;
+    
+    font-size: 340%
+}
+
+#About-Container h2
+{
+    
+    font-size: 135%;
+    letter-spacing: 0px;
+    color: #302828;
+    
+    padding-left: 12.7745%;
+    margin-bottom: 1.2%;
+
+}
+
+.La-nostra-filosofia 
+{
+    padding-right: 14.2715%;
+    padding-left: 12.7745%;
+}
+
+.La-nostra-filosofia img
+{
+    float: right;
+    
+    max-height: 46.8037%;
+    max-width: 42.1341%;
+
+    margin-left: 1.1%;
+    
+    opacity: 0.85;
+	
+}
+
+.La-nostra-filosofia p
+{
+    margin-bottom: 5.2%;
+    
+    text-align: justify;
+    color: #302828;
+    font-size: 112.5%;
+}
+
+#About-Container footer 
+{
+    position: absolute;
+    bottom: 6.25%;
+    left: 12.7745%;
+    
+    width: 50%;
+}
+
+.innermenùs ul
+{
+    list-style: outside none none;
+}
+
+.innermenùs li
+{
+    float: left;
+    
+    margin-right: 2%;
+    
+    font-family: "SourceSansPro-regular";
+    font-size: 112.5%;
+    color: #302828;
+}
+
+.innermenùs li a
+{
+    font-family: "MyriadPro-Bold";
+    font-size: 112.5%;
+    color: #302828;
+}
+
+
+#didascalia
+{
+	font-family: 'SourceSansPro-LightIt';
+	font-weight: 300;
+        font-size: 22.6667px;
+	
+	letter-spacing: 0.5px;
+	line-height: 1.75em;
+    
+	color: #fff;
+	
+	margin: 0px;
+	margin-bottom: 1.2em;
+	
+	padding: 0px;
+	
+	border: 0px none;
+	
+	vertical-align: baseline;
+	position: relative;
+	
+	top: -90px;
+	left: 30px;
+	z-index: 20;
+}
+
+
+#services
+{
+	height: 301px;
+	width: 308px;
+	
+	float: right;
+	margin-top: 5px;
+	margin-right: 0px;
+	
+	padding-left: 10px;
+}

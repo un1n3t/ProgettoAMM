@@ -1,0 +1,236 @@
+
+/* 16:9 1280X720 */
+@media all and (device-width: 1280px) and (device-height: 720px) 
+{
+    #assistenza 
+    {
+       bottom: -43% !important;
+    }
+    
+    #assistTel h2
+    {
+        bottom: -44.7% !important;
+    }
+    
+     .forgotTitlesBIG 
+    {
+        font-size: 166% !important;
+    }
+    
+    .forgotTitlesLittle
+    {
+        font-size: 120% !important;
+    }
+}
+
+/* 16:10 1280 x 800 - 1900 x 1200 - */
+@media all and (device-width: 1280px) and (device-height: 800px),  (device-width: 1440px) and (device-height: 900px), (device-width: 1680px) and (device-height: 1050px), (device-width: 1900px) and (device-height: 1200px), (device-aspect-ratio: 16/10)
+{
+    #Contacts 
+    {
+        background-size: 111% auto !important;
+    }
+    
+    #assistenza 
+    {
+       bottom: -26% !important;
+    }
+    
+    #assistTel h2
+    {
+        bottom: -27.95% !important;
+    }
+    
+    .forgotTitlesBIG 
+    {
+        font-size: 166% !important;
+    }
+    
+    .forgotTitlesLittle
+    {
+        font-size: 120% !important;
+    }
+}
+
+/* 4:3 1024 x 768 */
+@media all and (device-width: 1024px) and (device-height: 768px)
+{
+    #Contacts 
+    {
+        background-size: auto !important;
+    }
+    
+    #assistenza 
+    {
+       bottom: -31.5% !important;
+    }
+    
+    #assistTel h2
+    {
+        bottom: -33.7% !important;
+    }
+    
+     .forgotTitlesBIG 
+    {
+        font-size: 166%!important;
+    }
+    
+    .forgotTitlesLittle
+    {
+        font-size: 120% !important;
+    }
+}
+
+
+/* 4:3 1152 x 864 - 1600 x 1200 - */
+@media all and (device-width: 1152px) and (device-height: 864px), (device-width: 1280px) and (device-height: 960px), (device-width: 1400px) and (device-height: 1050px), (device-width: 1600px) and (device-height: 1200px), (device-aspect-ratio: 4/3)
+{
+    #Contacts 
+    {
+        background-size: auto !important;
+    }
+    
+    #assistenza 
+    {
+       bottom: -2.5% !important;
+    }
+    
+    #assistTel h2
+    {
+        bottom: -3.5% !important;
+    }
+    
+     .forgotTitlesBIG 
+    {
+        font-size: 166% !important;
+    }
+    
+    .forgotTitlesLittle
+    {
+        font-size: 120% !important;
+    }
+}
+
+
+#Contacts
+{
+    background-image: url("images/ContactsBG1.jpg");
+    background-size: 101.6%;
+    height: 81.94%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 11.8%;
+    overflow: hidden;
+
+}
+
+#About-Container
+{
+    position: relative;
+    top: -2px;
+    
+    width: 52.1871%;
+    height: 100.6%;
+    
+    z-index: 10;
+    
+    border-radius: 5px;
+    border-width: 0px 11px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.68);
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-clip: padding-box;
+    background-color: rgba(255, 255, 255, 0.58);
+    
+    
+    overflow: auto;
+
+}
+
+#About-Container header
+{
+    padding-left: 5%;
+    padding-right: 9%;
+}
+
+#About-Container h1
+{
+    font-family: "Amble-Bold";
+    font-size: 250%;
+    letter-spacing: 0px;
+    margin-bottom: 2%;
+    margin-left: 0px;
+    text-align: justify;
+    color: #302828;
+}
+
+#About-Container p
+{
+    font-family: "Amble-Regular";
+    font-size: 137.5%;
+    letter-spacing: 0px;
+    text-align: justify;
+    color: #302828;
+    
+    margin-bottom: 3.6%;
+}
+
+
+#contact-form
+{
+    margin-left: 5%;
+}
+
+#contactInfos
+{
+    width: 88%;
+}
+
+#contactLabels li
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    list-style: none;
+}
+
+#contactLabels li input
+{
+    width: 45%;
+	
+}
+
+#contactLabels li label
+{
+    font-family: "MyriadPro-BoldCond";
+    font-size: 100%;
+	
+}
+
+#contactLabels #domanda 
+{
+    margin-bottom: 1%;
+    width: 95%;
+    height: 195px;
+}
+
+#assistTel h2
+{
+    position: absolute;
+    bottom: 7.6345%;
+    right: 14.1717%;
+}
+
+
+#assistenza
+{
+    width: 15.3693%;
+
+    position: absolute;
+    bottom: 8.1352%;
+    right: 2.1956%;
+    
+}

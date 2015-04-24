@@ -1,0 +1,138 @@
+
+@font-face 
+{
+        font-family: 'Amble-Regular';
+        src: local('Amble-Regular.ttf'), url('fonts/Amble-Regular.ttf') format('truetype');;
+}
+
+@font-face 
+{
+        font-family: 'Amble-Bold';
+        src: local('Amble-Bold.ttf'), url('fonts/Amble-Bold.ttf') format('truetype');;
+}
+
+@font-face
+{   font-family: 'MyriadPro-Semibold';
+    src: local('MyriadPro-Semibold.otf'), url('fonts/MyriadPro-Semibold.otf') format('opentype');;
+}
+
+@font-face 
+{
+        font-family: 'MyriadPro-Regular';
+        src: local('MyriadPro-Regular.otf'), url('fonts/MyriadPro-Regular.otf') format('opentype');;
+}
+
+@font-face 
+{
+        font-family: 'MyriadPro-Cond';
+        src: local('MyriadPro-Cond.otf'), url('fonts/MyriadPro-Cond.otf') format('opentype');;
+}
+
+@font-face 
+{
+        font-family: 'SourceSansPro-Regular';
+        src: local('SourceSansPro-Regular.ttf'), url('fonts/SourceSansPro-Regular.ttf') format('truetype');;
+}
+
+@font-face 
+{
+        font-family: 'SourceSansPro-Black';
+        src: local('SourceSansPro-Black.ttf'), url('fonts/SourceSansPro-Black.ttf') format('truetype');;
+}
+
+@font-face 
+{
+        font-family: 'SourceSansPro-bold';
+        src: local('SourceSansPro-bold.ttf'), url('fonts/SourceSansPro-bold.ttf') format('truetype');;
+}
+
+@font-face 
+{
+        font-family: 'SourceSansPro-Semibold';
+        src: local('SourceSansPro-Semibold.ttf'), url('fonts/SourceSansPro-Semibold.ttf') format('truetype');;
+}
+
+@font-face 
+{
+        font-family: 'SourceSansPro-It';
+        src: local('SourceSansPro-It.ttf'), url('fonts/SourceSansPro-It.ttf') format('truetype');;
+}
+
+@font-face 
+{
+        font-family: 'SourceSansPro-LightIt';
+        src: local('SourceSansPro-LightIt.ttf'), url('fonts/SourceSansPro-LightIt.ttf') format('truetype');;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover
+{
+	transition: all 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+	color: #cc8d58;
+}
+
+b 
+{
+        font-family: "SourceSansPro-Black" !important;
+        color: #000 !important;
+}
+
+i{
+	font-family: "SourceSansPro-It";
+		color: inherit;
+}
+
+h1
+{
+	font-family: "MyriadPro-BoldCond";
+	font-size: 3.41375em;
+	letter-spacing: 0px;
+	margin-left: 0.625em;
+	margin-bottom: 1.2em;
+	color: #302828;
+}
+
+h2
+{
+	font-family: "MyriadPro-Bold";
+	font-size: 26.26px;
+	letter-spacing: 0px;
+	margin-bottom: 12px;
+	color: #302828;
+	
+}
+
+p
+{
+	font-family: "MyriadPro-BoldCond";
+	font-size: 20px;
+	margin-bottom: 38px;
+	text-align: justify;
+	color: #302828;
+}
+
+#motto
+{
+    font-family: "MyriadPro-BoldCond";
+    font-size: 137.5%;
+    letter-spacing: 0px;
+    margin-bottom: 12.15%;
+    text-align: right;
+    color: #302828;
+}
+
+em
+{
+    font-family: "MyriadPro-BoldCond";
+    font-size: 20px;
+}
+
+strong
+{
+    font-family: "SourceSansPro-Black" !important;
+    color: #000 !important;
+}

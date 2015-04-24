@@ -1,0 +1,332 @@
+
+/** Profilo Utente e pagine utente loggato (in generale)**/
+a:hover
+{
+	transition: all 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+	color: #cc8d58;
+}
+
+
+#MainView
+{
+    height: 87.6%;
+    background-image: url("images/IlPassaggio2.jpg");
+    background-size: auto;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 11.8%;
+    overflow: hidden;
+}
+
+#MainView a
+{
+    color: #000;
+    
+}
+
+
+#Data-Container
+{
+    position: relative;
+    top: -2px;
+    width: 52.1871%;
+    height: 94%;
+    z-index: 10;
+    border-radius: 5px;
+    border-width: 0px 11px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.68);
+    background-clip: padding-box;
+    background-color: rgba(255, 255, 255, 0.58);
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#Data-Container h1
+{
+    font-family: "Amble-Bold";
+    font-size: 253.875%;
+    
+    margin-top: 3.3%;
+    margin-left: 0px;
+    margin-bottom: 3.3%;
+    
+    padding-top: 9.4%;
+    padding-left: 4.875%;
+}
+
+
+
+#Data-Container footer h2
+{
+	position: absolute;
+	left: 138px;
+	bottom: 20px;
+}
+
+#AdministrationMenu
+{
+    margin-top: 0px;
+    height: 9.375%;
+    width: 100%;
+}
+
+#AdministrationMenu ul
+{
+    margin:0;
+    padding:0;
+        
+}
+
+#AdministrationMenu li
+{
+    list-style: outside none none;
+    float: right;
+    width: 25%;
+}
+
+.presentationTitle1
+{
+   
+    padding-left: 2% !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 1.2% !important;
+    
+    
+    
+}
+
+.presentationTitle2
+{
+    padding-left: 3%;
+    padding-right: 1.25em;
+    margin-bottom: 2.5% !important;
+    font-size: 1.3em !important;
+}
+
+.presentationTitle3
+{
+    padding-left: 3%;
+    padding-right: 1.25em;
+    margin-bottom: 2.5% !important;
+    font-size: 1em !important;
+}
+
+.menuBtn 
+{
+    font-family: MyriadPro-Regular;
+    font-size: 187.5%;
+    color: #FFF;
+    
+    background: none repeat scroll 0% 0% #3C424D;
+    text-decoration: none;
+    
+    width: 100%;
+    padding: 5.8%; /* <-- questa voce da consistenza al menù e ne determina l'altezza */
+}
+
+.menuBtn:hover 
+{
+  background: #918f8e;
+  background-image: -webkit-linear-gradient(top, #918f8e, #3c424d);
+  background-image: -moz-linear-gradient(top, #918f8e, #3c424d);
+  background-image: -ms-linear-gradient(top, #918f8e, #3c424d);
+  background-image: -o-linear-gradient(top, #918f8e, #3c424d);
+  background-image: linear-gradient(to bottom, #918f8e, #3c424d);
+  text-decoration: none;
+}
+
+
+
+#brief
+{
+    font-size: 1em;
+
+    padding-left: 4.875%;
+    padding-right: 4.875%;
+    
+    max-height: 48.7em;
+    
+    overflow: auto;
+    
+}
+
+
+/* sezione utenti */
+
+#usersTable
+{
+    border-collapse:collapse;
+    border-spacing:0;
+    border-color:#ccc;
+    
+    overflow: scroll;
+    
+}
+
+#usersTable tr
+{
+    width: 56.375em;
+    padding: 0;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+
+#usersTable th
+{
+    font-size: 12px;
+    max-width: 6.5em;
+    padding: 3px;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color:#ccc;
+    
+    overflow:hidden;
+    word-break:normal;
+   
+    color:#333;
+    background-color:#f0f0f0;
+}
+
+#usersTable td
+{
+    max-width: 7.336em;
+    
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    padding-top:0px;
+    
+    border-style:solid;
+    border-width:1px;
+    
+    
+    word-break:normal;
+    border-color:#ccc;
+    color:#333;
+    
+}
+
+.singleInfo
+{
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 0;
+    max-width: 100%;
+    
+    font-size: 10px;
+    padding: 0;
+    
+}
+
+.rowNumber
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+    background-color: rgba(255, 255, 255, 0) !important;
+    
+    max-width: 0.75em;
+    
+    font-size: 11px;
+  
+}
+
+.modify 
+{
+    padding: 0px;
+    border-width: 0px;
+    background: none;
+}
+
+.modify img
+{
+    max-width:2em;
+    max-height:2em;
+    background: none;
+    
+    padding-top: 2px;
+    
+}
+
+.delete
+{
+    padding: 0px;
+    border-width: 0px;
+    background: none;
+}
+
+.delete img
+{
+    max-width:2em;
+    max-height:2em;
+    background: none;
+    
+    
+}
+
+/* sezione pagamenti */
+
+
+#paymentsTable
+{
+    border-collapse:collapse;
+    border-spacing:0;
+    border-color:#ccc;
+    width: 94.8em;
+    margin-left: 1.5em;
+    
+}
+
+#paymentsTable tr
+{
+    
+    padding: 0;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+
+#paymentsTable th
+{
+    font-size: 12px;
+    /*max-width: 6.5em;*/
+    max-width: 100%;
+    padding: 3px;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color:#ccc;
+    
+    overflow:hidden;
+    word-break:normal;
+   
+    color:#333;
+    background-color:#f0f0f0;
+}
+
+#paymentsTable td
+{
+    /*max-width: 7.336em;*/
+    max-width: 100%;
+    
+    padding-left: auto;
+    padding-right: auto;
+    
+    
+    
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#ccc;
+    color:#333;
+    
+}
+

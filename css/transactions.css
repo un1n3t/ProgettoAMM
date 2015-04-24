@@ -1,0 +1,426 @@
+/* 16:9 1280X720 */
+@media all and (device-width: 1280px) and (device-height: 720px) 
+{
+    .titles
+    {
+        margin-top: -1.7% !important;
+        font-size: 130% !important;
+    }
+    
+    .payments h2
+    {
+        font-size: 115% !important;
+    }
+    
+    .shipments h2
+    {
+        font-size: 115% !important;
+    }
+    
+    .shipments form
+    {
+        font-size: 80% !important;
+    }
+    
+    #opzioni
+    {
+        font-size: 80% !important;
+    }
+    
+    .Virtual-ID
+    {
+        font-size: 80% !important;
+    }
+    
+    #riepilogoAcquisto h1 
+    {
+        font-size: 130% !important;
+    }
+    
+    #riepilogoAcquisto h2
+    {
+        font-size: 100% !important;
+        margin-bottom: -2.8% !important;
+        margin-top: 2% !important;
+
+    }
+    
+    #riepilogoAcquisto ul
+    {
+        font-size: 80% !important;
+    }
+    
+    #riepilogoAcquisto ul li
+    {
+        margin-left: -6% !important;
+        
+    }
+    
+}
+
+/* 16:10 1280 x 800 - 1900 x 1200 - */
+@media all and (device-width: 1280px) and (device-height: 800px),  (device-width: 1440px) and (device-height: 900px), (device-width: 1680px) and (device-height: 1050px), (device-width: 1900px) and (device-height: 1200px), (device-aspect-ratio: 16/10)
+{
+    .titles
+    {
+        margin-top: 2.3% !important;
+        font-size: 130% !important;
+    }
+    
+    .payments h2
+    {
+        font-size: 115% !important;
+    }
+    
+     .shipments h2
+    {
+        font-size: 115% !important;
+    }
+    
+    .shipments form
+    {
+        font-size: 80% !important;
+    }
+    
+    #opzioni
+    {
+        font-size: 80% !important;
+    }
+    
+    .Virtual-ID
+    {
+        font-size: 80% !important;
+    }
+    
+    #riepilogoAcquisto h1 
+    {
+        font-size: 130% !important;
+    }
+    
+    #riepilogoAcquisto h2
+    {
+        font-size: 100% !important;
+        margin-bottom: -2.8% !important;
+        margin-top: 2% !important;
+
+    }
+    
+    #riepilogoAcquisto ul
+    {
+        font-size: 80% !important;
+    }
+    
+    #riepilogoAcquisto ul li
+    {
+        margin-left: -6% !important;
+        
+    }
+}
+
+/* 4:3 1024 x 768 - 1600 x 1200 - */
+@media all and (device-width: 1024px) and (device-height: 768px),  (device-width: 1152px) and (device-height: 864px), (device-width: 1280px) and (device-height: 960px), (device-width: 1400px) and (device-height: 1050px), (device-width: 1600px) and (device-height: 1200px)
+{
+    .titles
+    {
+        margin-top: -2.7% !important
+        font-size: 130% !important;
+    }
+    
+    .payments h2
+    {
+        font-size: 115% !important;
+    }
+    
+     .shipments h2
+    {
+        font-size: 115% !important;
+    }
+    
+    .shipments form
+    {
+        font-size: 80% !important;
+    }
+    
+    #opzioni
+    {
+        font-size: 80% !important;
+    }
+    
+    .Virtual-ID
+    {
+        font-size: 80% !important;
+    }
+    
+    #riepilogoAcquisto h1 
+    {
+        font-size: 130% !important;
+    }
+    
+    #riepilogoAcquisto h2
+    {
+        font-size: 90% !important;
+        margin-bottom: -2.8% !important;
+        margin-top: 2% !important;
+
+    }
+    
+    #riepilogoAcquisto ul
+    {
+        font-size: 75% !important;
+    }
+    
+    #riepilogoAcquisto ul li
+    {
+        margin-left: -6% !important;
+        
+    }
+}
+
+
+#Transazione
+{
+    width: 50.83%;
+    height: 94.1%;
+    background-color: #fff;
+    float: left;
+
+    padding-top: 2%;
+
+
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: #323232;
+}
+
+#SecondaryLoginModule
+{
+    padding-left: 1.6%;
+
+    font-size: 100%;
+}
+
+#SecondaryLoginModule form
+{
+    margin-left: 5%;
+    font-size: 100%;
+
+    border-color: #323232;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+	
+}
+
+#SecondaryLoginModule form ul li
+{
+	margin-bottom: 10px;
+}	
+
+#SecondaryLoginModule form ul .user
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#SecondaryLoginModule form ul .passwd
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#SecondaryLoginModule form ul .confirm
+{
+	margin-top: 10px;
+	
+	
+}
+
+.titles  /** stile dei titoli di presentazione della sezione **/
+{
+    margin-left: 0px;
+    margin-bottom: 6.3%;
+    font-size: 250%;
+    margin-top: 5.3%;
+}
+
+#opzioni
+{
+	margin-left: 5%;
+	
+}
+
+#opzioni li
+{
+	float: left;
+	padding-right: 5px;
+	
+}
+
+
+#SecondaryLoginModule a
+{
+	color: #000;
+	
+}
+
+#RiepilogoVisuale
+{
+    width: 48.36%;
+    height: 100%;
+	
+    background-color: #fff;
+
+    float: right;
+
+    margin-bottom: 0.10%;
+    
+    overflow: hidden;
+	
+}
+
+#TitleAuthor
+{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	
+}
+#TitleAuthor h1
+{
+	
+	margin-left: 0px;
+	font-family: "MyriadPro-Semibold";
+	font-size: 29px;
+	display: inline;
+}
+
+#TitleAuthor  h2
+{
+	margin-top: 15px;
+	font-family: "MyriadPro-Cond";
+	font-size: 29px;
+	display: inline;
+}
+
+#previewImmagine
+{
+	margin-right: 1.7%;
+}
+#previewImmagine img
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#riepilogoAcquisto
+{
+	width: 100%;
+	margin-top: 4%;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0;
+	
+}
+
+#riepilogoAcquisto h1
+{
+
+    position: relative;
+    left: -1.6%;
+    top: -8.5%;
+
+    width: 100%;
+    
+    font-size: 250%;
+    line-height: normal;
+    color: #FFF;
+
+    background-color: #000;
+
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    padding-left: 1.6%;
+    padding-bottom: 1%;
+}
+
+
+
+
+#riepilogoAcquisto ul li
+{	
+	margin-left: 22px;
+	list-style-type: circle;
+}
+
+#formatiIMG
+{
+	
+	
+	margin-top: 0px;
+	float: left;
+}
+
+
+#AdditionalInfo
+{
+	margin-left: 50%;
+}
+
+#prezzo
+{
+	margin-bottom: 5%;
+}
+
+
+.elenchi
+{
+	margin-left: 5%;
+}
+
+.elenchi header
+{
+	margin-left: -4%;
+}
+
+.payments h2
+{
+    font-family: 'MyriadPro-BoldCond';
+    margin-bottom: 1.7%;
+}
+
+.shipments
+{
+	margin-bottom: 2%;
+}
+
+.shipments a
+{
+    color: #000;
+}
+
+.shipments #opzioni
+{
+    margin-top: 3%;
+    margin-left: 0;
+}
+
+.Virtual-ID
+{
+	margin-left: 3%;
+	
+	font-family: 'SourceSansPro-black';
+	font-size: 100%;
+}
+
+.confirmButton
+{
+	margin-left: 55%;
+	margin-top: 2.5%;
+}
+
+.endTransiction
+{
+    margin-left: 60%;
+}

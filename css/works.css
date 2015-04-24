@@ -1,0 +1,442 @@
+
+/* 16:9 1280X720 */
+@media all and (device-width: 1280px) and (device-height: 720px) 
+{
+    #miniatures
+    {
+        padding-left: 8% !important;
+    }
+    
+    #formati
+    {
+        position: relative !important;
+        top: -33% !important;
+        font-size: 100% !important;
+        
+    }
+    
+    #BuyingBar 
+    {
+        margin-top: 1.5% !important;
+    }
+    
+    #BuyingBar ul
+    {
+        margin: 0px !important;
+    }
+    
+    #BuyingBar li
+    {
+        width: 30% !important;
+        padding-right: 0.8% !important;
+    }
+        
+
+}
+
+/* media queries separate per risoluzioni cardine in 16:10 da 1280 x 800 a 1600 x 1050 - */
+@media all and (device-width: 1280px) and (device-height: 800px)
+{
+    #miniatures
+    {
+        padding-left: 8% !important;
+    }
+    
+    #formati
+    {
+        position: relative !important;
+        top: -33% !important;
+        font-size: 100% !important;
+    }
+    
+    #BuyingBar 
+    {
+        margin-top: 4.5% !important;
+        
+    }
+    
+    #BuyingBar ul
+    {
+        margin: 0px !important;
+    }
+    
+    #BuyingBar li
+    {
+        width: 30% !important;
+        padding-right: 0.8% !important;
+    }
+}
+
+@media all and (device-width: 1440px) and (device-height: 900px)
+{
+    #miniatures
+    {
+        padding-left: 4% !important;
+    }
+    
+    #formati
+    {
+        position: relative !important;
+        top: -33% !important;
+        font-size: 100% !important;
+        
+    }
+    
+    #BuyingBar 
+    {
+        margin-top: 6.5% !important;
+    }
+    
+    #BuyingBar ul
+    {
+        margin: 0px !important;
+    }
+    
+    #BuyingBar li
+    {
+        width: 30% !important;
+        padding-right: 0.8% !important;
+    }
+}
+
+@media all and (device-width: 1680px) and (device-height: 1050px)
+{
+   
+    #miniatures
+    {
+        padding-left: 2% !important;
+    }
+    
+    #formati
+    {
+        position: relative !important;
+        top: -33% !important;
+        font-size: 100% !important;
+        
+    }
+    
+    #BuyingBar 
+    {
+        margin-top: 1.5% !important;
+    }
+    
+    #BuyingBar ul
+    {
+        margin: 0px !important;
+    }
+    
+    #BuyingBar li
+    {
+        width: 30% !important;
+        padding-right: 0.8% !important;
+    }
+
+}
+
+
+/* 4:3 1024 x 768 - 1600 x 1200 - */
+@media all and (device-width: 1024px) and (device-height: 768px),  (device-width: 1152px) and (device-height: 864px), (device-width: 1280px) and (device-height: 960px), (device-width: 1400px) and (device-height: 1050px), (device-width: 1600px) and (device-height: 1200px), (device-aspect-ratio: 4/3)
+{
+     #preview850
+    {
+        margin-top: 30%;
+    }
+    
+    #miniatures
+    {
+        padding-left: 8% !important;
+    }
+    
+    #formati
+    {
+        position: relative !important;
+        top: -33% !important;
+        font-size: 90% !important;
+        
+    }
+    
+    #BuyingBar 
+    {
+        height: 38% !important;
+        position: absolute !important;
+        bottom: -42% !important;
+    }
+    
+    #BuyingBar ul
+    {
+        margin: 0px !important;
+    }
+    
+    #BuyingBar li
+    {
+        width: 32% !important;
+        padding-right: 0.8% !important;
+    }
+    
+    .navclass
+    {
+        font-size: 80%;
+    }
+}
+
+#Presentation
+{
+    height: 81.94%;
+    width: 100%;
+    
+    position: absolute;
+    right: 0;
+    top: 11.8%;
+    
+    margin: 0px;
+    padding-top: 20px;
+    
+    text-align: left;
+    color: #DBDBDB;
+    
+    background-color: #000;
+    overflow: hidden;
+    
+    z-index: 0;
+}
+
+#miniatures 
+{
+    height: 102.5%;
+    width: 100%;
+    
+    margin-right: 0px;
+    margin-top: -0.45%;
+    padding-right: 0px;
+    padding-left: 1.6%;
+
+    font-size: 150%;
+
+    overflow: scroll;
+    
+    z-index: 0;
+}
+
+#miniatures img { margin:0; padding:0; line-height:normal; z-index: 0;}
+#miniatures ul {display:block;  margin:0; padding:0; list-style:none; overflow:hidden; z-index: 0;}
+#miniatures li { display:block; float:left; width:250px; height:250px; margin:0 13px 13px 0; padding:0; overflow:hidden; z-index: 0;}
+#miniatures a strong {display:none; width:100%; margin:0; padding:10px 0; font-weight:normal; text-align:center; color:#5B5B5B; background-color:#232323; z-index: 0;}
+#miniatures a:hover strong{display:block;}
+
+
+#Descriptions
+{
+	
+    overflow: visible;
+    width: 80%; 
+    height: 73%;
+    
+
+    position: absolute;
+    top: 14.6%;
+    left: 7.5%;
+
+    background-color: #fff;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #323232;
+        
+    z-index: 1;
+}
+
+.closingButton
+{
+    float: right;
+    
+    margin-right: 0.8%;
+    margin-top: 0.6%;
+    
+    z-index: 1;
+}
+
+#restore
+{
+    display:none;
+}
+
+#Preview850
+{
+    display: block;
+	width: 50.83%;
+	height: 100%;
+	background-color: #000;
+	float: left;
+	
+	
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-right-color: #323232;
+        z-index: 1;
+}
+
+#Preview850 img
+{
+	max-width: 100%;
+	max-height: 100%;
+	
+	margin-top: 20%;
+        z-index: 1;
+ 
+}
+
+#DescrIMG
+{
+	
+	
+	width: 48.27%;
+	height: 67.57%;
+	
+	background-color: #fff;
+	
+	float: right;
+	
+	margin-bottom: 0.10%;
+        z-index: 1;
+	
+}
+
+#presentation
+{
+    margin-top: 2.1%;
+    margin-bottom: 4.8%;
+    z-index: 1;
+}
+
+#presentation  h1
+{
+    margin-left: 0px;
+    margin-bottom: 3.2%;
+    font-family: "MyriadPro-Cond";
+    font-size: 201%;
+    display: inline;
+    z-index: 1;
+}
+
+#presentation  h2
+{
+    margin-top: 2.1%;
+    margin-bottom: 1.7%;
+    
+    font-family: "MyriadPro-Cond";
+    font-size: 197.25%;
+    
+    display: inline;
+    z-index: 1;
+}
+
+#descrizioneTestuale h3
+{
+    margin-left: 0px;
+    margin-bottom: 4.7%;
+    padding-right: 1.35%;
+
+    font-family: "MyriadPro-Semibold";
+    font-size: 135%;
+    display: inline;
+    z-index: 1;
+
+
+}
+
+#descrizioneTestuale p
+{
+    padding-right: 1.35%;
+    margin-bottom: 4.7%;
+
+    font-family: "MyriadPro-Cond";
+    font-size: 125%;
+
+    text-align: justify;
+
+    display: inline;
+    z-index: 1;
+}
+
+#otherData
+{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "MyriadPro-Semibold";
+  
+   
+    z-index: 1;
+}
+
+#otherData li
+{
+    
+    z-index: 1;
+}
+
+#otherData h3
+{
+    font-size: 135% !important;
+}
+
+#formati
+{
+	height: 20.58%;
+	width: 48.27%;
+	background-color: #fff;
+	
+        float: right;
+	
+	font-size: 124%;
+        
+	border-top-width: 5px;
+	border-bottom-width: 1px; /** TEMPORANEO **/
+
+	border-style: solid;
+	
+        margin: 0px;
+        padding-right: 0.3%;
+
+	z-index: 1;
+}
+
+#formati input
+{
+    margin-top: 2.7%;
+}
+
+
+#BuyingBar
+{
+    height: 100%;
+    width: 100%;
+
+    margin-top: 6.2%;
+
+
+    float: right;
+
+    background-color: #eddd56;
+    z-index: 1;
+}
+
+#BuyingBar ul
+{
+    margin: 0;
+    margin-left: 12.5%;
+    
+    z-index: 1;
+}
+
+#BuyingBar li
+{
+	padding-right: 10px;
+	float: left;
+        z-index: 1;
+}
+
+.navButton
+{
+    width: 100%;
+}

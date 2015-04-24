@@ -1,0 +1,747 @@
+/* Questo sito è ottimizzato per la risoluzione di 1920x1080 mentre il design è adattivo a tutte le risoluzioni standard più diffuse (16:9, 16:10, 4:3))*/
+
+/* 16:9 1280X720 */
+@media all and (device-width: 1280px) and (device-height: 720px) 
+{
+    #navigation-bar
+    {
+        top: 0% !important;
+        right: 0% !important;
+    }
+    
+    .menù li a
+    {
+        font-size: 20px !important;
+    }
+    
+    
+    #login-bar
+    {
+       margin-right: 2% !important;
+       margin-top: 0% !important;
+ 
+    }
+    
+    #login-buttons li input
+    {
+      font-size: 65% !important;
+    }
+    
+    .authOptions li a
+    {
+        font-size: 75% !important;
+    }
+    
+    .confirmBTN
+    {
+        font-size: 65% !important;
+    }
+    
+    #forLoggedUser
+    {
+        margin-top: 0%;
+    }
+    
+    #forLoggedUser p 
+    {
+        font-size: 100% !important;
+        float: right !important;
+    }
+    
+    
+    #Logged-Menù ul 
+    {
+        margin: 0% 0px 0px !important;
+        
+    }
+    
+    #Logged-Menù li
+    {
+        font-size: 90% !important;
+    }
+    
+    
+    
+    #footer-bar
+    {
+        width: 33% !important;
+    }
+
+}
+
+/* 16:10 1280 x 800 - 1900 x 1200 - */
+@media all and (device-width: 1280px) and (device-height: 800px),  (device-width: 1440px) and (device-height: 900px), (device-width: 1680px) and (device-height: 1050px), (device-width: 1900px) and (device-height: 1200px), (device-aspect-ratio: 16/10)
+{
+    
+    #login-bar
+    {
+        margin-top: 0.2% !important;
+        margin-right: 2% !important;
+    }
+    
+    #login-buttons li input
+    {
+      font-size: 65% !important;
+    }
+
+    .confirmBTN
+    {
+        font-size: 65% !important;
+    }
+    
+    .authOptions li a
+    {
+        font-size: 75% !important;
+    }
+    
+    .menù li a
+    {
+        font-size: 20px !important;
+    }
+    
+    #navigation-bar 
+    {
+        right: 0% !important;
+    }
+    
+    #forLoggedUser
+    {
+        margin-right: 1.05% !important;
+    }
+    
+    #forLoggedUser p 
+    {
+        font-size: 110% !important;
+        float: right !important;
+    }
+    
+    
+    #Logged-Menù ul 
+    {
+        margin: 0% 0px 0px !important;
+        
+    }
+    
+    #Logged-Menù li
+    {
+        font-size: 98% !important;
+    }
+    
+    
+    #slideshowContainer
+    {
+        height: 100% !important;
+        overflow: hidden !important;
+    }
+    
+    #slider ul li img
+    {
+        max-width: none !important;
+    }
+    
+    #footer-bar
+    {
+        width: 33% !important;
+    }
+}
+
+/* 4:3 1024 x 768 - 1600 x 1200 - */
+@media all and (device-width: 1024px) and (device-height: 768px),  (device-width: 1152px) and (device-height: 864px), (device-width: 1280px) and (device-height: 960px), (device-width: 1400px) and (device-height: 1050px), (device-width: 1600px) and (device-height: 1200px), (device-aspect-ratio: 4/3)
+{
+    #Logo-Container 
+    {
+        top: 17.1% !important;
+    }
+    
+    #login-bar
+    {
+        margin-right: 2% !important;
+    }
+    
+    .confirmBTN
+    {
+        font-size: 65% !important;
+    }
+    
+    #login-buttons li input
+    {
+      font-size: 65% !important;
+    }
+    
+    .authOptions li a
+    {
+        font-size: 75% !important;
+    }
+    
+     .menù li a
+    {
+        font-size: 20px !important;
+    }
+    
+    #navigation-bar 
+    {
+        top: 2% !important;
+        right: 0% !important;
+    }
+    
+    #forLoggedUser
+    {
+        margin-top: 0%;
+    }
+    
+    #forLoggedUser p 
+    {
+        font-size: 120% !important;
+        float: right !important;
+    }
+    
+    
+    #Logged-Menù ul 
+    {
+        margin: 0% 0px 0px !important;
+        
+    }
+    
+    #Logged-Menù li
+    {
+        font-size: 100% !important;
+    }
+    
+    
+    #slideshowContainer
+    {
+        height: 100% !important;
+        overflow: hidden !important;
+    }
+    
+    #slider ul li img
+    {
+        max-width: none !important;
+    }
+    
+    
+    #footer-bar 
+    {
+        width: 42% !important;
+    }
+}
+
+/* regole di reset */
+
+fieldset
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1em;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+
+li
+{
+    list-style: none;
+}
+
+
+
+
+body
+{
+	margin: 0px;
+}
+
+/* -- Contenitore principale, si adatta ad ogni dimensione -- */
+#wrapper 
+{
+    margin: 0px;
+    padding: 0px;
+    
+    height: 100%;
+    width: 100%;
+    
+    border-top: 1px none #000;
+    border-color: #000;
+    
+    font-family: "SourceSansPro-regular";
+    letter-spacing: 0.03125em;
+}
+
+/* -- Intestazione -- */
+#headerContainer
+{
+    position: absolute;
+    top: 0%;
+    
+    width: 100%;
+    height: 11.5741%;
+    
+}
+
+
+/* -- Parte superiore dell'header (comprende la barra di login) -- */
+#UpperHeader
+{
+    position: relative;
+    top: 0%;
+    
+    background-color: #3c424d;
+
+    height: 54.8387%;
+    
+    padding: 0;
+    
+    z-index: 0;
+}
+
+/** Logo **/
+#Logo-Container
+{
+    width: 12.1875%;
+    height: 79.2683%;
+    
+    position: absolute;
+    top: 10.4839%;
+    bottom: 8%;
+    left: 0%;
+    
+    margin-left: 2.75%;
+
+    z-index: 2;
+	
+}
+
+#logo img
+{
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+    z-index: 3;
+    
+	
+}
+
+
+/** barra di login **/
+#login-bar
+{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
+    
+    height: 91%;
+	
+    padding: 0;
+    
+    
+    margin-right: 1.65%;
+    margin-top: 0.5%;
+    
+  
+}
+
+.login-form
+{
+    width: 100%;
+    /* -- */ height: 50%;
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+
+#login-field
+{
+    border-style: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#login-buttons
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#login-buttons li 
+{
+    float: left;
+    height: 100%;
+}
+
+#login-buttons li input
+{
+  width: 82%;
+  font-size: 90%;
+    
+  margin-top: 0px;
+  margin-right: 8%;
+}
+
+#userid #password
+{
+    height: 26.4898%;
+}
+
+.confirmBTN
+{
+    font-size: 90%;
+}
+
+
+#options
+{
+    display: span;
+    width: 100%;
+}
+
+.authOptions
+{
+    list-style: none;
+    
+    margin: 0% 0% 0%;
+    
+
+    padding: 0;
+}
+
+.authOptions li 
+{
+    float: left;
+    line-height: normal;
+    margin-left: 0.1875em;
+    
+    color: #fff;
+    
+}
+
+.authOptions li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 95%;
+}
+
+/** menù per utenti autenticati **/
+#forLoggedUser
+{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
+    height: 91%;
+    
+    padding: 0px;
+    margin-right: 1.65%;
+    margin-top: 0.1%;
+
+	
+}
+
+#forLoggedUser p
+{
+    color: #CCC;
+    font-family: "SourceSansPro-regular";
+    margin: 0px 0.5625em 0px 0px;
+    text-align: left;
+}
+
+#Logged-Menù
+{
+    margin:0px;
+}
+
+#Logged-Menù ul
+{
+    list-style: outside none none;
+    margin: 1% 0px 0px;
+    float: right;
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+}
+
+#Logged-Menù li
+{
+	
+	float: left;
+	margin-right: 0.5625em;
+	font-size: 1.125em;
+	
+	
+}
+
+
+
+
+
+
+/* -- Parte inferiore dell'header (comprende il menù di navigazione) -- */
+#LowerHeader
+{
+    height: 45.1613%;
+    
+    z-index: 1;
+    
+    width: 100%;
+}
+
+#navigation-bar
+{
+    max-height: 100%;
+    position: relative;
+    
+    top: 15%;
+    right: 0.5%;
+   
+
+    margin: 0px;
+    padding: 0px;
+
+    clear: both;
+
+    float:right;
+    
+}
+
+ul.menù
+{
+    margin: 0px;
+	margin-top: 1%;
+    padding: 0px;
+
+    list-style: none;
+
+}
+
+.menù li 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+	padding: 0px 0px 0px 0px;
+	
+	float: left;
+	display: inline-block;
+	
+	font-size: 0.9em;
+	
+	z-index: 50;
+}
+
+.menù li a 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
+	
+	
+	font-size: 23px;
+	
+	display:block;
+		
+	margin-right: 25px;
+	
+	color: #39454B;
+	
+	text-align: center;
+	outline: 0;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	
+	
+	transition: all 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+	z-index: 50;
+}
+
+.menù li a:hover
+{
+	font-family: "SourceSansPro-semibold";
+}
+
+
+hr{
+    background-color:#3c424d;
+	
+    border-width:0;
+    line-height:0;
+    
+	height: 2px;
+    
+	margin: 0px 0px 0px 0px;
+	
+	position: relative;
+	bottom: 0px;
+    
+	z-index: 255;
+}
+
+
+
+/* -- Slideshow -- */
+
+#intro
+{
+    height: 81.94%;
+	width: 100%;
+	
+	position: absolute;
+	right: 0;
+	top: 11.8%;
+	
+    overflow: hidden;
+}
+
+#slideshowContainer
+{
+    
+}
+
+#slider ul
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+   
+    position:relative
+}
+
+#slider ul li
+{
+	margin:0;
+	padding:0;
+	opacity:0;
+	position:absolute;
+	top:0;
+	left:0;
+	-o-animation-name:slides_animation;
+	-o-animation-duration:25s;
+	-o-animation-timing-function: linear;
+	-o-animation-iteration-count: infinite;
+	-o-animation-delay: 0;
+	-o-animation-play-state: running;
+	-o-animation-fill-mode: forwards;
+	-webkit-animation-name:slides_animation;
+	-webkit-animation-duration:25s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-delay: 0;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-name:slides_animation;
+	-moz-animation-duration:25s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-delay: 0;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: forwards;
+	animation-name:slides_animation;
+	animation-duration:25s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+#slider ul li img
+{
+    display:inline-block;
+	
+	
+	max-width: 100%;
+}
+
+#slider ul li:nth-child(2){-o-animation-delay:5s;-webkit-animation-delay:5s;-moz-animation-delay:5s;animation-delay:5s}
+#slider ul li:nth-child(3){-o-animation-delay:10s;-webkit-animation-delay:10s;-moz-animation-delay:10s;animation-delay:10s}
+#slider ul li:nth-child(4){-o-animation-delay:15s;-webkit-animation-delay:15s;-moz-animation-delay:15s;animation-delay:15s}
+#slider ul li:nth-child(5){-o-animation-delay:20s;-webkit-animation-delay:20s;-moz-animation-delay:20s;animation-delay:20s}
+
+
+/* Frame delle animazioni */
+@-o-keyframes slides_animation{
+   0%{opacity:0;}
+   4%{opacity:1;}
+   16%{opacity:1;}
+   24%{opacity:0;}
+   100%{opacity:0;}
+}
+@-webkit-keyframes slides_animation{
+   0%{opacity:0;}
+   4%{opacity:1;}
+   16%{opacity:1;}
+   24%{opacity:0;}
+   100%{opacity:0;}
+}
+
+@-moz-keyframes slides_animation{
+   0%{opacity:0;}
+   4%{opacity:1;}
+   16%{opacity:1;}
+   24%{opacity:0;}
+   100%{opacity:0;}
+}
+
+@keyframes slides_animation{
+   0%{opacity:0;}
+   4%{opacity:1;}
+   16%{opacity:1;}
+   24%{opacity:0;}
+   100%{opacity:0;}
+}
+
+#footer
+{
+    height: 6.26%;
+	width: 100%;
+	
+	background-color: #393939;
+	
+	position: absolute;
+	bottom:0px;
+	
+	overflow: hidden;
+}
+
+#foot-separator
+{
+	z-index: 40;
+	height: 2px;
+	background-color: #131414;
+}
+
+#footer-bar
+{
+	width: 22.3%;
+	
+	position: absolute;
+	right: 1.04%;
+	top: 18.18%;
+	
+	padding: 0px;
+}
+
+.footer-menù
+{
+	list-style: none;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#footer-bar li 
+{
+	float: left;
+	margin-right: 2.68%;
+	
+	font-family: 'SourceSansPro-regular';
+	font-size: 21px;
+	letter-spacing: 0.5px;
+	color: #fff !important;
+	text-decoration: none;
+	outline: 0;
+}
