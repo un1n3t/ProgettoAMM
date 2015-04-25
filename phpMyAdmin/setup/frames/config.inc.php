@@ -20,6 +20,13 @@ require_once './setup/lib/ConfigGenerator.class.php';
 $config_readable = false;
 $config_writable = false;
 $config_exists = false;
+$cfg['PmaAbsoluteUri'] = 'http://spano.sc.unica.it/amm2014/vargiuFrancesco/phpMyAdmin/';
+$cfg['Servers'][$i]['host']      = 'localhost';
+$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user']      = 'admin';
+$cfg['Servers'][$i]['password']  = 'admin';
+
+
 PMA_checkConfigRw($config_readable, $config_writable, $config_exists);
 echo '<h2>' . __('Configuration file') . '</h2>';
 
